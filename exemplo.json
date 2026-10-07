@@ -1,0 +1,35 @@
+[
+  {
+    "sexo": "F",
+    "dataNascimento": {"$date": "2000-05-07T00:00:00Z"},
+    "registros": [
+      {
+        "dataEntrada": {"$date": "2026-10-01T12:00:00Z"},
+        "informacoes": {
+          "queixa": "Refere febre e tosse. Nega falta de ar.",
+          "diagnostico": "DIAGNÓSTICO FICTÍCIO A"
+        }
+      },
+      {
+        "dataEntrada": {"$date": "2026-10-03T10:00:00Z"},
+        "informacoes": {
+          "queixa": "Refere dor de cabeça e náusea.",
+          "diagnostico": "DIAGNÓSTICO FICTÍCIO B"
+        }
+      }
+    ]
+  },
+  {
+    "sexo": "M",
+    "dataNascimento": "1950-01-01T00:00:00Z",
+    "registros": [
+      {
+        "dataEntrada": "2026-09-02T09:00:00Z",
+        "informacoes": {
+          "queixa": "Refere tosse e falta de ar.",
+          "diagnostico": "DIAGNÓSTICO FICTÍCIO C"
+        }
+      }
+    ]
+  }
+]
